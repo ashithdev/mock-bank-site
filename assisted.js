@@ -1,6 +1,6 @@
 let stage = "START_ASSISTED_BROWSING";
 
-const WORKFLOW_2_URL = "PASTE_WORKFLOW_2_WEBHOOK_URL_HERE";
+const WORKFLOW_2_URL = "https://ashithdev.app.n8n.cloud/webhook/assist";
 
 function show(text) {
   document.getElementById("assist-messages")
