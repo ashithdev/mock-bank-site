@@ -1,6 +1,6 @@
 let currentStage = "START";
 
-const WORKFLOW_1_URL = "PASTE_WORKFLOW_1_WEBHOOK_URL_HERE";
+const WORKFLOW_1_URL = "https://ashithdev.app.n8n.cloud/webhook/chat";
 
 function showMessage(text) {
   const div = document.getElementById("messages");
