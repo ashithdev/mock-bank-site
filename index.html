@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Demo Bank</title>
+  <title>Mock Bank</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Welcome to Demo Bank</h1>
-  <p>Your trusted banking partner.</p>
 
-  <a href="personal-loan.html">
-    <button>View Personal Loan Offers</button>
-  </a>
+<h1>Welcome to Mock Bank</h1>
+<p>Your trusted digital banking partner</p>
+
+<!-- Chat Widget -->
+<div id="chat-widget">
+  <div id="messages"></div>
+
+  <input
+    id="chat-input"
+    placeholder="Ask me something..."
+  />
+  <button onclick="sendMessage()">Send</button>
+</div>
+
+<script src="chat.js"></script>
 </body>
 </html>
